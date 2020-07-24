@@ -1,0 +1,9 @@
+.sliding-menu {  background-color: rgb(40, 38, 38); visibility: hidden; position: fixed; overflow: hidden; }
+/* .exit { position: absolute; font-size: 40px; color: white; cursor: pointer; } */
+.left-exit, .top-exit, .bottom-exit { top: 0px; right: 10px; }
+.left-menu, .right-menu { width: 300px; }
+.top-menu { height: 100%; }
+.bottom-menu { height:100px; }
+@media only screen and (max-width: 600px) {
+	.left-menu, .right-menu { width: 270px }
+}
